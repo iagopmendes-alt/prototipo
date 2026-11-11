@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prototipo</title>
+    <script src="resources/script/script.js"defer></script>
+    <link rel="stylesheet" href="css/CSS.css">
+</head>
+<body>
+    <div class="caixa">
+    <h1>Ficha de Dados Pessoais</h1>
+    <p class="subtitulo">Informe os dados no formulário abaixo</p>
+
+    <hr>
+
+    <form id="meuFormulario">
+      
+      <!-- Nome -->
+      <p class="titulo-campo">Nome completo</p>
+      <div class="linha">
+        <div class="coluna">
+          <input type="text">
+          <label>Nome</label>
+        </div>
+        <div class="coluna">
+          <input type="text">
+          <label>Sobrenome</label>
+        </div>
+      </div>
+
+      <!-- Celular -->
+      <p class="titulo-campo">Número de celular</p>
+      <div class="linha">
+        <div class="coluna">
+          <input type="text" placeholder="(00) 00000-0000">
+        </div>
+        <div class="coluna"></div>
+      </div>
+
+      <!-- Email -->
+      <p class="titulo-campo">E-mail</p>
+      <div class="linha">
+        <div class="coluna">
+          <input type="text" placeholder="ex: myname@example.com">
+          <label>example@example.com</label>
+        </div>
+        <div class="coluna"></div>
+      </div>
+
+      <!-- Endereço -->
+      <p class="titulo-campo">Endereço</p>
+      
+      <div class="bloco">
+        <input type="text">
+        <label>Endereço</label>
+      </div>
+
+      <div class="bloco">
+        <input type="text">
+        <label>Bairro</label>
+      </div>
+
+      <div class="linha">
+        <div class="coluna">
+          <input type="text">
+          <label>Cidade</label>
+        </div>
+        <div class="coluna">
+
+
+          <input type="text">
+          <label>Estado</label>
+        </div>
+      </div>
+
+      <div class="linha">
+        <div class="coluna">
+          <input type="text">
+          <label>CEP</label>
+        </div>
+        <div class="coluna">
+          <select>
+            <option>United Kingdom</option>
+            <option>Brasil</option>
+            <option>United States</option>
+          </select>
+          <label>País</label>
+        </div>
+      </div>
+
+      <br>
+      <button type="submit">Enviar</button>
+
+    </form>
+  </div>
+
+  
+</body>
+</html>
